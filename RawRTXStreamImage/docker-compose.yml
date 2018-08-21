@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: "raw-trx-image"
+    network_mode: host
+    deploy:
+         replicas: 1

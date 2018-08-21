@@ -1,0 +1,7 @@
+version: '3'
+services:
+  usersbatch:
+    image: "users-batch-image"
+    network_mode: host
+    deploy:
+         replicas: 1
